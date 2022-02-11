@@ -5,7 +5,7 @@ var RADIUS = 10;
 var RADIUS_SCALE = 1;
 var RADIUS_SCALE_MIN = 1;
 var RADIUS_SCALE_MAX = 1.5;
-var QUANTITY = 25;
+var QUANTITY = 1;
 var canvas;
 var context;
 var particles;
@@ -106,10 +106,10 @@ function loop() {
 
   RADIUS_SCALE = Math.min(RADIUS_SCALE, RADIUS_SCALE_MAX);
 
-  context.fillStyle = "#1F2329";
+  context.fillStyle = "rgb(31,35,41,0.6)";
   context.fillRect(0, 0, context.canvas.width, context.canvas.height);
 
-  for (i = 0, len = 1; i < len; i++) {
+  for (i = 0, len = particles.length; i < len; i++) {
     var particle = particles[i];
     var lp = { x: particle.position.x, y: particle.position.y };
     particle.shift.x += (mouseX - particle.shift.x) * particle.speed;
