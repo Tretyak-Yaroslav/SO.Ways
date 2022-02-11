@@ -1,11 +1,4 @@
-.cursor {
-    top: 0;
-    left: 0;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    height: calc(100vh - 1px);
-    height: calc(var(--vh, 1vh) * 100 - 1px);
-    pointer-events: none;
-    z-index: -1;
-  }
+@import url(reset/reset.scss);
+@import url(layout/layout.scss);
+@import url(animated/animated.scss);
+@import url(home_page/home_page.scss);
