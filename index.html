@@ -9,13 +9,471 @@
   </head>
   <body>
     <div id="app">
-      <div class="div"></div>
-      <div class="div">sdasdasdasda</div>
-      <div class="element-animation">
-        <span>Элемент (class = element-animation) </span>
-      </div>
-      <div class="div">sdasdasdasda</div>
-      <div class="div">sdasdasdasda</div>
+      <header class="header">
+        <div class="custom-container">
+          <div class="main-nav row desktop-menu">
+            <div class="col-xs-10 col-md-6">
+              <div class="header-logo">
+                SO.WAYS - простір твого дизайну
+              </div>
+            </div>
+            <div class="col-xs-2 col-md-6 d-flex justify-content-between align-items-center" id="menu">
+              <ul class="links">
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Проекти
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Про роботу
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Про нас
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Контакти
+                  </a>
+                </li>
+              </ul>
+              <div>
+                <button class="contact-link button button-white dropdown-toggle" type="button" id="dropdownContactMe" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-commenting"></i>
+                  Зв’язатись
+                </button>
+                <div class="dropdown-menu contact-me" aria-labelledby="dropdownContactMe" style="will-change: transform;">
+                  <div class="close-dropdown">
+                    <img src="images/Burger%20menu%20close.png" alt="">
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="row contact-me-title">
+                        Зв’язатись зі мною:
+                      </div>
+                      <div class="row email-phone">
+                        <a href="#" class="">
+                          +380 (99) 999-99-99
+                        </a>
+                        <a href="#" class="">
+                          example@gmail.com
+                        </a>
+                      </div>
+                      <div class="row contact-me-buttons">
+                        <a href="#" class="button button-arrow">Telegram <div></div></a>
+                        <a href="#" class="button button-arrow">Viber <div></div></a>
+                        <a href="#" class="button button-arrow">Whatsapp <div></div></a>
+                        <a href="#" class="button button-arrow">Facebook <div></div></a>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="row contact-me-title"></div>
+                      <div class="row get-proposal justify-content-around">
+                        <a href="#" data-toggle="modal" data-target="#getProposal" class="button button-white">Отримати детальну пропозицію</a>
+                      </div>
+                      <div class="row contact-me-buttons justify-content-between">
+                        <a href="#" class="button button-arrow">Instagram <div></div></a>
+                        <a href="#" class="button button-arrow">Behance <div></div></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="main-nav row mobile-menu">
+
+            <div class="col-xs-12 top d-flex align-items-center justify-content-between" style="width: 100%;">
+              <div class="header-logo">
+                SO.WAYS - простір твого дизайну
+              </div>
+              <button class="show-menu-btn" data-toggle="collapse" data-target="#collapseMenu" aria-expanded="false" aria-controls="collapseExample"></button>
+            </div>
+            <div class="collapse mobile-menu-column" id="collapseMenu">
+
+              <div class="divider"></div>
+
+              <h4 class="mobile-menu-title">
+                SO.WAYS - простір твого дизайну
+              </h4>
+
+              <div class="row get-proposal">
+                <a href="#" data-toggle="modal" data-target="#getProposal" class="button button-white">Отримати детальну пропозицію</a>
+              </div>
+
+              <ul class="links">
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Проекти
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Про роботу
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Про нас
+                  </a>
+                </li>
+              </ul>
+
+              <div class="divider"></div>
+
+              <div class="row contact-me-title">
+                Зв’язатись зі мною:
+              </div>
+              <div class="row email-phone">
+                <a href="#" class="">
+                  +380 (99) 999-99-99
+                </a>
+              </div>
+              <div class="row email-phone">
+                <a href="#" class="">
+                  example@gmail.com
+                </a>
+              </div>
+              <div class="row contact-me-buttons">
+                <a href="#" class="button button-arrow">Telegram <div></div></a>
+                <a href="#" class="button button-arrow">Viber <div></div></a>
+              </div>
+              <div class="row contact-me-buttons">
+                <a href="#" class="button button-arrow">Whatsapp <div></div></a>
+                <a href="#" class="button button-arrow">Facebook <div></div></a>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="row contact-me-buttons">
+                <a href="#" class="button button-arrow">Instagram <div></div></a>
+                <a href="#" class="button button-arrow">Behance <div></div></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="banner row">
+        <div class="col-xs-12 col-md-6 banner-logo blue-bg element-animation">
+            <h1 class="banner-logo-img">
+              <img src="images/Logo.png">
+            </h1>
+            <h2 class="banner-logo-text">
+              feel your design
+            </h2>
+            <button class="button button-circle">
+              <span class="rotation"></span>
+              <img src="images/Vector.png" alt="Розрахунок проекту">
+            </button>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="banner-slider element-animation">
+            <div  class="slider-item">
+              <img src="images/slider/Cozy_Home_23.png" alt="">
+              <a href="#" class="slider-item-name d-flex justify-content-between">
+                <span>Козіхоум</span>
+                <span>2019</span>
+              </a>
+            </div>
+            <div  class="slider-item">
+              <img src="images/slider/1.%20Гостиная-кухня%201.png" alt="">
+              <a href="#"  class="slider-item-name d-flex justify-content-between">
+                <span>РОСЛАВИЧІ</span>
+                <span>2021</span>
+              </a>
+            </div>
+            <span class="next-prev">
+              <img src="images/Group%206.png" alt="nextArrow">
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects blue-bg">
+        <div class="custom-container">
+          <div class="row element-animation">
+            <div class="col-xs-12" style="margin-bottom: 100px;">
+              <h3 class="projects-title">
+                Проекти
+              </h3>
+              <a href="projects.html" target="_blank" class="button-arrow text-uppercase">
+                Дивитись всі проекти
+                <div></div>
+              </a>
+            </div>
+          </div>
+          <div class="row align-items-end">
+            <div class="col-xs-12 col-md-6 projects-item element-animation ">
+              <a href="#" class="">
+                <div class="projects-item-image">
+                  <img src="images/slider/Cozy_Home_27%201.png" alt="">
+                  <div class="projects-arrow"></div>
+                </div>
+                <div class="d-flex justify-content-between projects-item-title">
+                  <div>КОЗІХОУМ<br>2019
+                  </div>
+                  <div class="button-arrow">
+                    <div></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-xs-12 col-md-1"></div>
+            <div class="col-xs-12 col-md-5 projects-item element-animation ">
+              <a href="#" class="">
+                <div class="projects-item-image">
+                  <img src="images/slider/IMG_8195%201.png" alt="">
+                  <div class="projects-arrow"></div>
+                </div>
+                <div class="d-flex justify-content-between projects-item-title">
+                  <div>Крона парк<br>2021
+                  </div>
+                  <div class="button-arrow">
+                    <div></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-5 projects-item element-animation">
+              <a href="#" class="">
+                <div class="projects-item-image">
+                  <img src="images/slider/7%203.png" alt="">
+                  <div class="projects-arrow"></div>
+                </div>
+                <div class="d-flex justify-content-between projects-item-title">
+                  <div>Файна<br>2020
+                  </div>
+                  <div class="button-arrow">
+                    <div></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-xs-12 col-md-1"></div>
+            <div class="col-xs-12 col-md-6 projects-item element-animation">
+              <a href="#" class="">
+                <div class="projects-item-image">
+                  <img src="images/slider/2%2022.png" alt="">
+                  <div class="projects-arrow"></div>
+                </div>
+                <div class="d-flex justify-content-between projects-item-title">
+                  <div>Чайка<br>2020
+                  </div>
+                  <div class="button-arrow">
+                    <div></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-about blue-bg">
+        <div class="element-animation">
+          <div class="custom-container">
+            <div class="desktop-hidden">
+              <h3 class="person-name">
+                Я - Вікторія
+              </h3>
+              <h4 class="person-occupation">
+                дизайнер інтер’єру
+              </h4>
+            </div>
+            <div class="row align-items-center">
+
+              <div class="col-xs-12 col-md-5 person-slider-container">
+                <div class="person-slider">
+                  <div class="person-slider-item">
+                    <img src="images/Photo.png" alt="Viktoria">
+                  </div>
+                  <div class="person-slider-item">
+                    <img src="images/Photo.png" alt="Viktoria">
+                  </div>
+                  <a href="#" class="prev slick-arrow fa fa-angle-left" style=""></a>
+                  <a href="#" class="next slick-arrow fa fa-angle-right" style=""></a>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-7">
+                <div class="mobile-hidden">
+                  <h3 class="person-name">
+                    Я - Вікторія
+                  </h3>
+                  <h4 class="person-occupation">
+                    дизайнер інтер’єру
+                  </h4>
+                </div>
+                <div class="row home-about-info align-items-end">
+
+                  <div class="col-xs-12 col-md-4">
+                    <button class="button button-circle">
+                      <span class="rotation"></span>
+                      <img src="images/Vector.png" alt="Детальніше про нас">
+                    </button>
+                  </div>
+
+                  <div class="col-xs-12 col-md-8">
+                    <p>
+                      Пишу для вас блог @feelyourdesign про цікаве та корисне в дизайні інтер'єру та інтер'рного скетчу. Знаходжусь з вами на постійному зв'язку. Маю профільну вищу освіту та з 2013го року займаюсь розробкою інтер'єрів.
+                    </p>
+                    <p>
+                      Щодня ми з командою шукаємо, вигадуємо та втілюємо у реальність найкращі художні та технічні рішення в дизайні інтер'єру для вас.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer class="main-footer">
+        <div class="element-animation custom-container">
+          <div class="mobile-hidden desktop-footer">
+            <div class="row">
+              <div class="col-xs-12 col-md-12 footer-name">
+                SO.WAYS - простір твого дизайну
+              </div>
+            </div>
+            <div class="row align-items-end">
+              <div class="col-xs-12 col-md-4">
+                <ul class="links">
+                  <li class="menu-link">
+                    <a href="#" class="whitetext">
+                      Головна
+                    </a>
+                  </li>
+                  <li class="menu-link">
+                    <a href="#" class="whitetext">
+                      Проекти
+                    </a>
+                  </li>
+                  <li class="menu-link">
+                    <a href="#" class="whitetext">
+                      Про роботу
+                    </a>
+                  </li>
+                  <li class="menu-link">
+                    <a href="#" class="whitetext">
+                      Про нас
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-md-5">
+                 <div class="row email-phone">
+                   <a href="#" class="">
+                     +380 (99) 999-99-99
+                   </a>
+                   <a href="#" class="">
+                     example@gmail.com
+                   </a>
+                 </div>
+                 <div class="row contact-me-buttons">
+                   <a href="#" class="button button-arrow">Telegram <div></div></a>
+                   <a href="#" class="button button-arrow">Viber <div></div></a>
+                   <a href="#" class="button button-arrow">Whatsapp <div></div></a>
+                   <a href="#" class="button button-arrow">Facebook <div></div></a>
+                 </div>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <div class="row contact-me-title"></div>
+                <div class="row get-proposal">
+                  <a href="#" data-toggle="modal" data-target="#getProposal" class="button button-white">Отримати детальну пропозицію</a>
+                </div>
+                <div class="row contact-me-buttons justify-content-between">
+                  <a href="#" class="button button-arrow">Instagram <div></div></a>
+                  <a href="#" class="button button-arrow">Behance <div></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="row footer-copyright justify-content-between">
+              <div>© so.ways. ALL RIGHTS RESERVED 2022</div>
+              <a href="#" style="text-decoration: underline; text-transform: none;">Політика конфіденційності</a>
+            </div>
+          </div>
+          <div class="desktop-hidden mobile-footer">
+
+
+              <h4 class="mobile-menu-title">
+                SO.WAYS - простір твого дизайну
+              </h4>
+
+              <div class="col-xs-12 get-proposal">
+                <a href="#" data-toggle="modal" data-target="#getProposal" class="button button-white">Отримати детальну пропозицію</a>
+              </div>
+
+              <ul class="links">
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Головна
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Проекти
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Про роботу
+                  </a>
+                </li>
+                <li class="menu-link">
+                  <a href="#" class="whitetext">
+                    Про нас
+                  </a>
+                </li>
+              </ul>
+
+              <div class="divider"></div>
+
+              <div class="col-xs-12 email-phone">
+                <a href="#" class="">
+                  +380 (99) 999-99-99
+                </a>
+              </div>
+              <div class="col-xs-12 email-phone">
+                <a href="#" class="">
+                  example@gmail.com
+                </a>
+              </div>
+              <div class="d-flex contact-me-buttons" style="margin-bottom: 15px;">
+                  <a href="#" class="button button-arrow">Telegram <div></div></a>
+                  <a href="#" class="button button-arrow">Viber <div></div></a>
+               </div>
+              <div class="d-flex contact-me-buttons">
+
+                  <a href="#" class="button button-arrow">Whatsapp <div></div></a>
+                  <a href="#" class="button button-arrow">Facebook <div></div></a>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="d-flex contact-me-buttons">
+                  <a href="#" class="button button-arrow">Instagram <div></div></a>
+                  <a href="#" class="button button-arrow">Behance <div></div></a>
+               </div>
+
+            <div class="footer-copyright">
+              <div style="margin-bottom: 10px;">© so.ways. ALL RIGHTS RESERVED 2022</div>
+              <a href="#" style="text-decoration: underline; text-transform: none;">Політика конфіденційності</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
 
       <canvas
         class="cursor"
@@ -23,6 +481,84 @@
         id="cursore"
       ></canvas>
     </div>
+
+
+    <!--Мадалка предложения-->
+    <div class="modal fade" id="getProposal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="custom-container">
+        <div class=" modal-dialog" role="document">
+          <div class="modal-content position-relative">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <img src="images/Burger%20menu%20close.png" alt="close">
+            </button>
+
+            <h5 class="modal-title">
+              ОТРИМАТИ ДЕТАЛЬНУ<br> ПРОПОЗИЦІЮ
+                <span class="mobile-hidden">
+                  Заповніть форму для отримання<br> детальної пропозиції
+                </span>
+            </h5>
+            <span class="desktop-hidden proposal-text">
+              Заповніть форму для отримання детальної пропозиції
+            </span>
+
+            <div class="modal-body">
+              <form>
+                <div class="row">
+                  <div class="form-group col-xs-12 col-md-4">
+                    <label for="type">Тип об’єкта</label>
+                    <input type="text" class="form-control" id="type" placeholder="Квартира, дім, офіс і т.д.">
+                  </div>
+                  <div class="form-group col-xs-12 col-md-4">
+                    <label for="square">Площа</label>
+                    <input type="text" class="form-control" id="square" placeholder="00">
+                    <span class="square-meter">м<sup>2</sup></span>
+                  </div>
+                  <div class="form-group col-xs-12 col-md-4">
+                    <label for="place">Місцезнаходження</label>
+                    <input type="text" class="form-control" id="place" placeholder="Місто, країна">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-group col-xs-12 col-md-4 has-error">
+                    <label for="phone">Телефон</label>
+                    <input type="text" class="form-control" id="phone" placeholder="+380 (99) 999-99-99" value="Заповніть обов’язкове поле">
+                  </div>
+                  <div class="form-group col-xs-12 col-md-4">
+                    <label for="email">E-mail</label>
+                    <input type="text" class="form-control" id="email" placeholder="example@gmail.com">
+                  </div>
+                  <div class="form-group col-xs-12 col-md-4">
+                    <label for="comment">Ваш коментар</label>
+                    <input type="text" class="form-control" id="comment" placeholder="Додаткова інформація">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-xs-12 col-md-8">
+                    <input type="checkbox" id="agreement" value="Agreement" checked>
+                    <label for="agreement">
+                      <span></span>
+                      Я даю згоду на обробку персональних данних та погоджуюсь з
+                      <a href="#" target="_blank">Політикою Конфіденційності</a>.
+                    </label>
+                  </div>
+                  <div class="form-group col-xs-12 col-md-4">
+                    <button type="submit"class="button">Отримати пропозицію</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <a href="#" class="scroll-up"></a>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript" src="slick-slider/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

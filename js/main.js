@@ -175,5 +175,47 @@ function onEntry(entry) {
     observer.observe(elm);
   }
 // end animation
-  
-  
+
+
+// start banner slider
+$('.banner-slider').slick({
+  variableWidth: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  slide: 'div',
+  arrows: false,
+  dots: false,
+});
+
+$('.banner-slider').click(function next() {
+  $('.banner-slider').slick('slickNext');
+})
+//end banner slider
+
+// start person slider
+$('.person-slider').slick({
+  slide: 'div',
+  prevArrow: '.prev',
+  nextArrow: '.next',
+  dots: true,
+  dotsClass: 'slick-dots person-dots',
+
+});
+$('.person-slider').click(function next() {
+  $('.person-slider').slick('slickNext');
+})
+//Scroll top Top
+
+
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 900) {
+    $('.scroll-up').fadeIn();
+  } else {
+    $('.scroll-up').fadeOut();
+  }
+});
+$('.scroll-up').on('click',function(){
+  $('html, body').animate({ scrollTop: 0 }, 600);
+  return false;
+});
+
